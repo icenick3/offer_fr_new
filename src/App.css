@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("https://loveriq.online/sweep/za1/smoke.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: #2D2D2D;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  display: block;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 800;
+  background: none;
+  background-image: url("https://loveriq.online/sweep/za1/Rec.png");
+  background-size: cover;
+  color: #393939;
+  text-transform: uppercase;
+  width: 95vw;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.heartPurple{
+  display: block;
+  width: 30vw;
+  margin: 0 auto;
 }
